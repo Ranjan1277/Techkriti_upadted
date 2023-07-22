@@ -3735,6 +3735,8 @@ img.u-pull-left {
     margin-top: 0;
 }
 
+
+
 .s-intro__title {
     --text-title-size: 10.4rem;
     --text-multiplier: 1;
@@ -3746,7 +3748,17 @@ img.u-pull-left {
     margin-bottom: var(--vspace-2_5);
     text-transform: uppercase;
 }
-
+.s-intro__title1 {
+    --text-title-size: 5.4rem;
+    --text-multiplier: 0.5;
+    font-weight: 1000;
+    font-size: calc(var(--text-title-size) * var(--text-multiplier));
+    line-height: 0.00001;
+    color: white;
+    margin-top: 0;
+    margin-bottom: var(--vspace-0_5);
+    text-transform: uppercase;
+}
 .s-intro__more {
     --vspace-btn: var(--vspace-1_5);
 }
