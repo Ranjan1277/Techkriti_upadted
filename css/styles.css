@@ -4894,23 +4894,23 @@
   *
   * ------------------------------------------------------------------- */
  .s-footer {
-     background-color: #111111;
+     background-color: #000000;
      padding-top: var(--vspace-1_75);
      padding-bottom: var(--vspace-1_75);
      font-family: var(--font-2);
      font-size: calc(var(--text-size) * 0.8889);
      line-height: var(--vspace-1);
-     color: rgba(255, 255, 255, 0.25);
+     color:white;
      position: relative;
  }
  
  .s-footer a {
-     color: white;
+     color: rgb(255, 0, 0);
  }
  
  .s-footer a:focus,
  .s-footer a:hover {
-     color: var(--color-1);
+     color: rgb(22, 99, 3);
  }
  
  /* -------------------------------------------------------------------
@@ -5013,4 +5013,7 @@
          display: none;
      }
  }
- 
+ .instagram-icon {
+    font-size: 18px; /* Adjust the size as needed */
+    color: orange; /* Replace 'orange' with the specific orange color you want */
+  }
